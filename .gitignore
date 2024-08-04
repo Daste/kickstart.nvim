@@ -5,3 +5,8 @@ nvim
 
 spell/
 lazy-lock.json
+
+
+# custom additions
+lua/machine-specific/
+
