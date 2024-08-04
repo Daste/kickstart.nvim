@@ -822,6 +822,10 @@ require('lazy').setup({
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
 
+      -- [[attempted fix. this remove the change word binding but does still not show mini.surround in which-key
+      vim.keymap.set('n', 's', '<Nop>')
+      --]]
+
       -- Simple and easy statusline.
       --  You could remove this setup call if you don't like it,
       --  and try some other statusline plugin
