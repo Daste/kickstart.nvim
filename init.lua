@@ -816,7 +816,7 @@ require('lazy').setup({
 
       -- Add/delete/replace surroundings (brackets, quotes, etc.)
       --
-      -- FIX: (Dario) these are not currently working as expected, s places in insert mode.
+      -- NOTE: (Dario) these *do* work but require typing the first two letters quickly to avoid applying 's'- change character
       -- - saiw) - [S]rround [A]dd [I]nner [W]ord [)]Paren
       -- - sd'   - [S]urround [D]elete [']quotes
       -- - sr)'  - [S]urround [R]eplace [)] [']
